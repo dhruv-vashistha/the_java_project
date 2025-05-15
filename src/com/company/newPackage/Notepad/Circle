@@ -1,0 +1,21 @@
+package com.company.newPackage.Notepad;
+
+class MyCircle{
+	public int Radii;
+	public void setRadii(int x){
+	this.Radii = x;
+	}
+	public int getArea(){
+	return Math.PI*Radii*Radii;
+	}
+}
+public class square{
+	public static void main(String[] args){
+	System.out.println("this is the Circle class that's gonna be in a new package named notepad..");
+	//setting the Radii
+	MyCircle s = new MyCircle();
+	s.setRadii(4);
+	System.out.println(s.getArea());
+
+	}
+}

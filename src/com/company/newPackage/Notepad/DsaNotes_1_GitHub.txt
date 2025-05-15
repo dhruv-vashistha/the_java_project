@@ -1,0 +1,105 @@
+Git Bash--
+some Linux commands-
+1.(ls)--list down all the things present inside the folder etc.
+
+2.(mkdir)--means make directory at the path you've open the git bash.
+
+3.(cd)--change directory and then write the name of project(file/folder) inside the previous directory opened file.
+
+4.(git init)--means initiallize an empity git repository [after that it says master--therefore git is getting used].
+
+5.(ls -a)--here -a for getting hidden files and ls for list of all the hidden files[whatever is inside the .example file means hidden as here is .git].
+
+6.(touch example.txt)--will make an text file inside the path.
+
+7.(git status)--to open the changes have made in the project that are not currently saved in the history of that project(and called the untracked files).
+
+8.(rm -rf .example)--to remove the file that is inside the git status.
+
+9.(git add example.txt)--to add the untracked files to the stage so that it's histroy could be saved.
+
+10.(git add .)--all the untracked files to the staging area to save them also.
+
+11.(git commit -m "example{some message}")--all the staged files or green in status will be saved permanently and now git status will be empity if no staging files present again.
+
+12.(git config --globaluser.name "Dhruv Vashistha")--for giving my user name to it.
+
+13.(git config --globaluser.email "Dvas7337@gmail.com")--gives my email to put into the following files to.
+
+14.(vi example.txt)--to make changes inside the text files.
+
+15.(:wq)--this will exit the file saving the changes and you need to click esc button before that to exit the insert mode.
+
+16.(cat example.txt)--for display of the content inside the file also it modifies the class now you have to agian put it to staging area and then save it.
+
+17.(git restore --staged example.txt)--for unstaging the file that was staged by mistake.
+
+18.(git log)--for the history of the project.
+
+19.(wq)--if you wanna exit the git log and write as you were a while ago.
+
+20.(rm -rf example.txt)--this will remove the file from saved.
+
+21.(git reset {hash code of comment})--this will clear all the comments above it and make the set hash code comment latest.
+
+22.(git stash)--for taking the staged work and not the commit to another place and it helps to get clean work without called incomplete work as some are not commit files there.
+
+23.(git stash pop)--for reverting the stash changes and putting the staged files inside the completed work space of only commit files.
+
+24.(git remote add origin example{URL})--remote related to the url and origin is name of url you are giving it by convention and it will supply the repository to git bash.
+
+25.(git remote -v)--gives all the files attached to the our repository.
+
+25.(git push origin master)--as we have taken the master as our branch and pushing the files that we have staged and saved to the git repository that we provide the url of.
+
+26.(git clone example{url of code})--this will clone the work and make folder locally using the fork in the github.
+
+27.(git remote add upstream example{URL})--now this url is of the file where you have forked the work and which is called upstream url which is different from origin url so the upstream is the name of the url.
+
+28.(ALT + F8)--to clear up like new one.
+
+29.(git branch -b example)--this will create a new brach that will act like the previous when you change the head[(or)use git branch example for vs code].
+
+30.(git checkout example{name of the new branch})--this will make the new branch as the usual branch does.
+
+31.(git push origin example{name of branch that you wanna merge})--this will push the example branch to your origin and you can make example as your branch of the project in repository.
+
+32.(git reset example{hash code from log of git})--this will remove the all above hash code commits and then you will have to force push it to the main project or the base.
+
+33.(git push origin example{branch} -f)--it will force push the branch to the repository and main project it helps if you have already pushed the branch and doing changes in the same branch.
+
+34.(clear)--for clearing the terminal..
+
+35.(ls -Force)--list down all the files inside hidden or normal.
+
+36.push -- for moving the local file to remote file.
+
+37.(cd ..)--now we're outside the changed directory and at the original one.
+
+38.(git branch)--gives the branch we're in.
+
+39.(git branch -m example{it's new name})--rename the branch that you're working in.
+
+40.(git push -u origin main)--tells the system that only if you write git push that will automatically push it on the origin main branch.
+
+41.(git checkout example{branch name})--name of the new branch that you are now wanna enter.
+
+42.(git branch -d example{branch name})--name of the branch that you wanna delete.
+
+43.(git push origin --delete example{branch name})--this will delete the branch from remote even if it has deleted locally.
+
+44.(git diff example{branch name})--it will give the differences in the active branch and the name of the branch give by you.
+
+45.(git merge example{branch name})--it will merge the files.
+
+46.(git pull origin example{branch name})--this will take all the chenged file from remote to local system.
+
+# if there is conflict in between the main and new branch that they both go different, then we use method git merge branch.
+
+47.(git reset example{name of the file})--it will reset the file as the statged file to unstaging area.
+
+48.(git reset)--it will remove all the staged files to unstaged area.
+
+49.(git reset HEAD~1)--it will get you 1 commit back for all files.
+
+50.(git reset --hard example{hash code})--it will reset all the changes from the remote as well as from the local git.
