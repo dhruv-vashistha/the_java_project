@@ -103,3 +103,5 @@ some Linux commands-
 49.(git reset HEAD~1)--it will get you 1 commit back for all files.
 
 50.(git reset --hard example{hash code})--it will reset all the changes from the remote as well as from the local git.
+
+51.(git remote remove origin)--remove the previous urls and good to add the new one.
